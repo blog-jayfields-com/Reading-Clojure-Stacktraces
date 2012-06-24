@@ -2,5 +2,5 @@
   (:use [reading-clojure-stacktraces.core])
   (:use [clojure.test]))
 
-(deftest replace-me ;; FIXME: write
+(deftest 
   (is false "No tests have been written."))
