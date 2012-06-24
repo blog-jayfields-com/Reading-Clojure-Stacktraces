@@ -1,4 +1,4 @@
 (ns reading-clojure-stacktraces.core)
 
 (defn -main []
-  ((fn [] (throw (RuntimeException. "thrown")))))
+  ((fn i-throw [] (throw (RuntimeException. "thrown")))))
